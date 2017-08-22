@@ -1,6 +1,6 @@
 body {
 
-	background-color: yellow;
+	background-color: #003694;
 }
 
 .container {
@@ -24,17 +24,51 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border: 6px;
-	background-color: #003694;
+	border: 10px;
+	background-color: yellow;
 	width: 100%;
 	height: 125px;
 	border-radius: 50%;
+	margin-top: 10px;
 }
 
 h1 {
 
 	color: #ce1126;
 	font-family: 'Lobster', cursive;
-	font-size: 42px;
+	font-size: 3em;
 }
+
+.top-header {
+
+	display: block;
+
+}
+
+.top-header a {
+
+	color:#ce1126;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+
+}
+
+ul {
+
+	display: flex;
+	height: 85px;
+	background-color: yellow;
+	margin-top: 10px;
+	border-radius: 15px;
+	
+}
+
+ul li {
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3px 80px;
+}
+
 
